@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+:root{
+    --color1: #135337;
+    --color2:#9CCB9E;
+    --color3: #30303F;
+    --fondo: #F5F7F9;
+    --border: #C9C6C6;
+}
+
+/* --- MODAL ESTILOS --- */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro */
+    display: none;
+    justify-content: flex-end; /* Contenido al lado derecho */
+    align-items: flex-start;
+    z-index: 9999;
+  }
+  
+  .modal__container {
+    background-color: #fff;
+    width: 350px;
+    height: 100%;
+    padding: 1.5rem;
+    overflow-y: auto;
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal__close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: #333;
+  }
+  
+  .modal__header h2 {
+    margin-top: 2.5rem;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #444;
+  }
+  
+  .modal__list {
+    margin-top: 1.5rem;
+  }
+  
+  .modal__item {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .modal__thumb img {
+    border-radius: 5px;
+    width: 50px;
+    height: auto;
+  }
+  
+  .modal__text-product {
+    flex-grow: 1;
+  }
+  
+  .modal__text-product p {
+    margin: 0;
+    color: #333;
+  }
+  
+  .modal__text-product strong {
+    color: #000;
+  }
+  
+  .modal__footer {
+    margin-top: auto;
+    padding-top: 1rem;
+    border-top: 1px solid #ccc;
+  }
+  
+  .modal__list-price ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+  }
+  
+  .modal__list-price li {
+    margin-bottom: 0.3rem;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .modal__total-cart {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .modal__btns {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .modal__btns a {
+    text-align: center;
+    padding: 0.7rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95rem;
+  }
+  
+  .btn-border {
+    border: 2px solid #333;
+    color: #333;
+    background-color: transparent;
+  }
+  
+  .btn-border:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Botón Eliminar */
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.7rem;
+    font-size: 0.85rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  

@@ -1,0 +1,17 @@
+[
+    {
+      "id": "1",
+      "nombre": "Bolso elegante",
+      "precio": 250000,
+      "stock": 10,
+      "img": "assets/img/Mochila1.jpg"
+    },
+    {
+      "id": "2",
+      "nombre": "Bolso moderno",
+      "precio": 250000,
+      "stock": 5,
+      "img": "assets/img/Mochila2.jpg"
+    }
+  ]
+  

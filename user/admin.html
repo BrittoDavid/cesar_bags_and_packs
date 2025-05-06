@@ -1,0 +1,9 @@
+<?php
+session_start();
+if (!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin') {
+    header("Location: question.php");
+    exit;
+}
+?>
+<h1>Bienvenido, Admin</h1>
+<a href="question.php?logout=true">Cerrar sesión</a>

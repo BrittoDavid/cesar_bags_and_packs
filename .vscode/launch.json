@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Abrir index.html con parámetros",
+        "type": "chrome",
+        "request": "launch",
+        "url": "http://localhost/cesar_bags_and_packs/index.html",
+        "webRoot": "${workspaceFolder}"
+      }
+    ]
+  }
+  

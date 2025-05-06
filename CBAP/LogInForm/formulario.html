@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenedor">
+        <form method="POST" action="procesar.php">
+            <input type="text" name="nombre" placeholder="Nombre" required />
+            <input type="email" name="correo" placeholder="Correo" required />
+            
+            <!-- Botones tipo radio para el sexo -->
+            <input type="radio" name="sexo" value="hombre" required> Hombre
+            <input type="radio" name="sexo" value="mujer" required> Mujer
+            
+            <!-- Check de Términos -->
+            <input type="checkbox" required> Acepto términos
+          
+            <button type="submit" >Registrate</button>
+          </form>
+          
+
+        <div class="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Correo</th>
+                        <th>Sexo</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
